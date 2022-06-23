@@ -1,0 +1,160 @@
+* {
+    margin: 0%;
+}
+
+.progress {
+    background-color: red;
+    height: 3px;
+    animation: vishal 1s ease-in-out 1;
+}
+
+header {
+    background-color: rgb(44, 71, 221);
+    height: 27vh;
+}
+
+.nav1 {
+    height: 20vh;
+}
+
+.login_btn {
+    float: right;
+    color: white;
+    font-size: 2em;
+    padding: 5px;
+}
+
+span img {
+    float: right;
+    margin: 45px 15px 0px 0px;
+}
+
+.nav2 {
+    height: 7vh;
+    background-color: darkblue;
+}
+
+.nav2 ul li {
+    margin: 17px 73px 0px -12px;
+    display: inline-block;
+    color: white;
+    justify-content: center;
+}
+
+.nav2 ul li a {
+    color: white;
+    font-weight: 900;
+    margin: 10px 10px 15px 10px;
+    text-decoration: none;
+}
+
+.heading {
+    background-image: linear-gradient(to bottom right, red, yellow);
+    text-align: center;
+    text-shadow: 8px 8px 15px black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    border: 2px solid black;
+    border-radius: 13px;
+    width: 25%;
+    margin: 10px;
+}
+
+.score {
+    text-align: center;
+    font-size: 100%;
+    margin: 20px 0px 0px 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.team_won {
+    text-align: center;
+}
+
+.container_2 {
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+
+.news_headline {
+    text-align: center;
+    width: 95%;
+    text-shadow: 3px 3px 12px yellow;
+    background-image: linear-gradient(to top, rgb(216, 48, 48), yellow);
+}
+
+.boxn {
+    font-weight: 500;
+    border: 2px solid rgb(132, 141, 4);
+    width: 80%;
+    margin: 7px;
+    border-radius: 35px;
+    padding: 15px;
+}
+
+.container_3 {
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+    background-color: rgb(255, 137, 137);
+    border: 1px solid blue;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.content {
+    color: rgb(120, 47, 129);
+    font-style: italic;
+    padding: 5px;
+}
+
+.container_4 {
+    width: 25%;
+    height: 100%;
+    float: right;
+    /* background-color: aqua; */
+}
+
+.video_headline {
+    text-align: center;
+    width: 100%;
+    text-shadow: 3px 3px 12px yellow;
+    background-image: linear-gradient(to top, rgb(216, 48, 48), yellow);
+}
+
+.videos_content {
+    padding: 10px;
+    text-align: center;
+    word-spacing: 2px;
+    font-weight: 800;
+    color: rgb(49, 49, 68);
+    text-decoration: underline;
+    margin: 5px;
+}
+.video_2{
+    margin-top: 30px;
+}
+
+@keyframes vishal {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 60vw;
+    }
+    95% {
+        width: 95vw;
+    }
+    100% {
+        width: 0vw;
+    }
+}
